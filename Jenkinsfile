@@ -4,6 +4,6 @@ node {
     tool name: 'Maven', type: 'maven'
     checkout scm
 
-    bat 'mvn clean install'
+    bat 'cmd.exe /C "mvn clean install && exit %%ERRORLEVEL%%"'
 
 }

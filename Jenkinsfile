@@ -1,3 +1,9 @@
+pipeline {
+    tools {
+        maven 'Maven'
+        jdk 'Java'
+    }
+
 stage 'Build'
 node {
 
@@ -6,4 +12,5 @@ node {
     bat 'mvn clean install'
 
 }
+}    
 

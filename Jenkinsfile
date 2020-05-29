@@ -7,5 +7,3 @@ node {
     bat 'mvn clean install'
 
 }
-}    
-

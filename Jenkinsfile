@@ -8,7 +8,7 @@ node {
 
 }
 
-stage 'Test"
+stage 'Test'
 node {
     bat 'mvn test'
     

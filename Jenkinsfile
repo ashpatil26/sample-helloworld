@@ -16,5 +16,5 @@ node {
 
 stage 'Deliver'
 node {
-    bat 'copy target/java-maven-junit-helloworld-2.0-SNAPSHOT.jar C:\\Ashish_office'
+    bat 'copy target\\java-maven-junit-helloworld-2.0-SNAPSHOT.jar C:\\Ashish_office'
 }    
